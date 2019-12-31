@@ -9,8 +9,9 @@ git push origin master
 git log --pretty=oneline
 git reset --hard HEAD^
 git clone git@github.com:binzhaaa/test3.git
-git checkout -b dev  £¨git branch dev   +   git checkout dev£©
+git checkout -b dev  Â£Â¨git branch dev   +   git checkout devÂ£Â©
 git branch
 git merge dev
 git branch -d dev
 git log --graph
+ä¸­æ–‡
