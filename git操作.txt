@@ -1,0 +1,16 @@
+git init
+touch a1.php
+git status
+git add a1.php
+git commit -m 'a1.php'
+git remote add origin https://github.com/binzhaaa/test1.git
+git push -u origin master
+git push origin master
+git log --pretty=oneline
+git reset --hard HEAD^
+git clone git@github.com:binzhaaa/test3.git
+git checkout -b dev  £¨git branch dev   +   git checkout dev£©
+git branch
+git merge dev
+git branch -d dev
+git log --graph
